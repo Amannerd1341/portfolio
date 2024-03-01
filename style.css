@@ -1,0 +1,233 @@
+body{
+background-color:white;
+color: black;
+border: red 5px solid;
+padding: 0px;
+padding-bottom: 40em;
+margin: 0px;
+
+}
+nav a.locator{
+    color: black;
+}
+nav a.locator:hover{
+    color: yellowgreen;
+}
+li{
+    list-style-type: none;
+}
+ul::before{
+    content: "|";
+    padding: 8x;
+    margin: 2px;
+}
+nav{
+    display: flex;
+align-items: center;
+justify-content: right;
+margin-right: 5em;
+background-color: yellow;
+width: 100%;
+position: sticky;
+top: 0%;
+
+}
+
+.images{
+    margin-top: 40px;
+    margin-bottom: 12px;
+   display: inline;
+   margin-right: 60px;
+    height: 50vh;
+    width: 35vh;
+}
+.photos{
+    margin-right: 4px;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    border: black solid 4px;
+    background-color: beige;
+}
+.progressbar{
+    height: 15px;
+    width: 300px;
+    background-color: rgba(246, 0, 0, 0.963);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progressbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8vh;
+}
+.progress1{
+    height: 100%;
+    width: 93%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+
+.progress2{
+    height: 100%;
+    width: 90%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress3{
+    height: 100%;
+    width: 70%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress4{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress5{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress6{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress7{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress8{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress9{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress10{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.progress11{
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s ease;
+    background-color: rgba(169, 88, 255, 0.964);
+    border-radius: 5px;
+}
+.prolink{
+    color: blue;
+}
+.prolink:hover{
+color: darkblue;
+cursor: pointer;
+}
+.prolink:visited{
+color: black;
+}
+nav.treehead{
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    background-color: white;
+}
+#treepic{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 135px;
+    width: 135px;
+    margin-left: 670px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+#github1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    color: black;
+    background-color: gray;
+    font-size: larger;
+    height: 42px;
+}
+#email2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    color: black;
+    background-color: gray;
+    font-size: larger;
+    height: 42px;
+}
+#ig3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    color: black;
+    background-color: gray;
+    font-size: larger;
+    height: 42px;
+}
+#linkin4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    color: black;
+    background-color: gray;
+    font-size: larger;
+    height: 42px;
+}
+#tweet5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px ridge rgb(25, 25, 25);
+    color: black;
+    background-color: gray;
+    font-size: larger;
+    height: 42px;
+}
+.experience{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+}
